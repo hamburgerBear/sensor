@@ -1,0 +1,18 @@
+/**:
+  ros__parameters:
+    input_topic: /input/points
+    output_topic: /sensor/crop_box_filted
+    marker_topic: /debug/crop_box_marker
+    input_frame: ""
+    min_x: -10.0
+    max_x: 10.0
+    min_y: -10.0
+    max_y: 10.0
+    min_z: -2.0
+    max_z: 2.0
+    padding_x: 0.0
+    padding_y: 0.0
+    padding_z: 0.0
+    negative: false
+    visual: true
+    use_pcl: true
