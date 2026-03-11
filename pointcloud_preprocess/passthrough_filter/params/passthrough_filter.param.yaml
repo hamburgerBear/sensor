@@ -1,0 +1,10 @@
+/**:
+  ros__parameters:
+    input_topic: /input/points
+    output_topic: /sensor/passthrough_filtered
+    input_frame: ""
+    filter_field_name: z
+    min_limit: -2.0
+    max_limit: 2.0
+    negative: false
+    use_pcl: true
