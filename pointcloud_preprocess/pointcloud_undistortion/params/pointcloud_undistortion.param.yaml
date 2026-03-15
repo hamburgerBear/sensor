@@ -1,0 +1,14 @@
+/**:
+  ros__parameters:
+    input_topic: /input/points
+    output_topic: /sensor/undistorted_points
+    imu_topic: /input/imu
+    output_frame: ""
+    extrinsic_t: [0.0, 0.0, 0.0]
+    extrinsic_r: [0.0, -1.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, -1.0]
+    scan_line: 32
+    scan_rate: 10
+    point_filter_num: 1
+    blind_threshold: 0.5
+    distance_threshold: 6.0
+    use_imu: true
